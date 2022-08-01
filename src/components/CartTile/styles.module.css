@@ -1,0 +1,50 @@
+.tile {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.name {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.price {
+  font-weight: bold;
+  background-color: green;
+  border-radius: 4px;
+  color: #fff;
+  padding: 0 5px 2px 5px;
+  width: min-content;
+  display: block;
+  margin: 0 10px 0 auto;
+}
+
+.image {
+  display: block;
+  width: 96px;
+}
+
+.tile:hover .image {
+  display: none;
+}
+
+.buttonDelete {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: none;
+  background: transparent;
+}
+
+.buttonDelete img {
+  display: block;
+  width: 50px;
+}
+
+.tile:hover .buttonDelete {
+  display: flex;
+}

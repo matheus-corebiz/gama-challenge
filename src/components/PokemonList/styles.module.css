@@ -1,0 +1,15 @@
+.list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  width: calc(100% - 283px);
+  padding-right: 20px;
+}
+
+@media (max-width: 740px) {
+  .list {
+    width: 100%;
+  }
+}

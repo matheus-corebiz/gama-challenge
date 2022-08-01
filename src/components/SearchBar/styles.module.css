@@ -1,0 +1,28 @@
+.searchBar {
+  width: 100%;
+  position: relative;
+  background-color: #C4C4C4;
+  padding: 5px 10px;
+}
+
+.icon {
+  width: 40px;
+  position: absolute;
+  left: 10px;
+  top: 5;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  border: none;
+  margin: 0;
+  min-height: 40px;
+  background: none;
+  padding-left: 50px;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+}

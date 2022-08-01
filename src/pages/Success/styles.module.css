@@ -1,0 +1,25 @@
+.body {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #C4C4C4;
+}
+
+.title {
+  font-size: 150px;
+  display: block;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 100px;
+  display: block;
+  text-align: center;
+}
+
+.link {
+  display: block;
+  width: min-content;
+  margin: 30px auto;
+  white-space: nowrap;
+}
